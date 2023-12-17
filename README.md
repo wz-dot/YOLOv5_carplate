@@ -52,6 +52,7 @@ YOLOv5 🚀 is a family of object detection architectures and models pretrained 
 -->
 
 </div>
+
 ## <div align="center">Note</div>
 
 It is just a simple application of YOLOv5 in carplate_detection. 
