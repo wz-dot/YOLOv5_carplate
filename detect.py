@@ -338,8 +338,8 @@ def run(weights=ROOT / 'yolov5s.pt',  # 权重文件地址 默认 weights/best.p
         print(f"Results saved to {colorstr('bold', save_dir)}{s}")
     if update:
         strip_optimizer(weights)  # update model (to fix SourceChangeWarning)
-    np.savetxt("x.txt", len_box1, fmt='%d', delimiter=',')
-    np.savetxt("y.txt", con, fmt='%.2f', delimiter=',')
+    # np.savetxt("x.txt", len_box1, fmt='%d', delimiter=',')
+    # np.savetxt("y.txt", con, fmt='%.2f', delimiter=',')
 
 
 def parse_opt():
